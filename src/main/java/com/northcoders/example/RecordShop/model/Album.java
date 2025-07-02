@@ -15,7 +15,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Table(name = "albums")
+@Table(name = "album")
 public class Album {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
