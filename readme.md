@@ -1,4 +1,4 @@
-About this project
+#About this project
 The Record Shop is a simple backend Spring Boot API service. 
 It allows Northcoders Record shop to perform CRUD operations.
 
