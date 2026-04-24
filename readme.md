@@ -9,10 +9,10 @@ It allows Northcoders Record shop to perform CRUD operations.
    cd recordShop
 
 ## 3. Configuration
-   i. Connect to postgresql:
-   ii. Navigate to resource folder and edit the credentials
-    spring.datasource.username= <your username>
-    spring.datasource.password= <your password>
+       i. Connect to postgresql:
+       ii. Navigate to resource folder and edit the credentials
+        spring.datasource.username= <your username>
+        spring.datasource.password= <your password>
 
 ## 4. run main
     Run the main RecordShopApplication java file
@@ -20,7 +20,8 @@ It allows Northcoders Record shop to perform CRUD operations.
 ## 5. API Documentation
 To check API Documentation visit url at: http://localhost:8080/swagger-ui/index.html#/
    
-## 6. Visit url: http://localhost:8080/api/album 
+## 6. Accessing endpoints
+Visit url: http://localhost:8080/api/album 
  Few demo queries:
         list all albums in stock
         get album by id
@@ -43,10 +44,10 @@ To check API Documentation visit url at: http://localhost:8080/swagger-ui/index.
 
 ## 8. ![img.png](img.png)
 
-Future consideration
+## 9.  Future consideration
     Add more models to simulate complex relationship.
     Integrate Efficient exception to provide feedback for developer or user.
 
     
-## 9. Acknowledgements
+## 10. Acknowledgements
     This was a project taught during Northcoder bootcamp program
