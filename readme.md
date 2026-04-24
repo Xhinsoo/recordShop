@@ -14,8 +14,11 @@ It allows Northcoders Record shop to perform CRUD operations.
     spring.datasource.username= <your username>
     spring.datasource.password= <your password>
 
-## 4. Run the main RecordShopApplication java file
-## 5. To check API Documentation visit swagger-ui which has been integrated for improved browsing. Url at: http://localhost:8080/swagger-ui/index.html#/
+## 4. run main
+    Run the main RecordShopApplication java file
+    
+## 5. API Documentation
+To check API Documentation visit url at: http://localhost:8080/swagger-ui/index.html#/
    
 ## 6. Visit url: http://localhost:8080/api/album 
  Few demo queries:
