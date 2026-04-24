@@ -5,19 +5,19 @@ It allows Northcoders Record shop to perform CRUD operations.
 ## 1. Getting Started:
     git clone httsp://github.com:Xhinsoo/recordShop.git
 
-2. Navigate to the project directory:
+## 2. Navigate to the project directory:
    cd recordShop
 
-3. Configuration
+## 3. Configuration
    i. Connect to postgresql:
    ii. Navigate to resource folder and edit the credentials
     spring.datasource.username= <your username>
     spring.datasource.password= <your password>
 
-5. Run the main RecordShopApplication java file
-6. To check API Documentation visit swagger-ui which has been integrated for improved browsing. Url at: http://localhost:8080/swagger-ui/index.html#/
+## 4. Run the main RecordShopApplication java file
+## 5. To check API Documentation visit swagger-ui which has been integrated for improved browsing. Url at: http://localhost:8080/swagger-ui/index.html#/
    
-7.Visit url: http://localhost:8080/api/v1
+## 6. Visit url: http://localhost:8080/api/album 
  Few demo queries:
         list all albums in stock
         get album by id
@@ -29,25 +29,21 @@ It allows Northcoders Record shop to perform CRUD operations.
         update album details
         delete albums from the database
 
-8. Built with
+## 7. Built with
    Spring Boot
    Maven
    H2 database for testing, postgresql for record data
    Lombok to reduce boilerplate code by automatically generating getters, setters      and constructores
    Swagger
 
-   
-   
-   
-
-9. Acknowledgements
-    This was a project taught during Northcoder bootcamp program
-    
 
 
-
-![img.png](img.png)
+## 8. ![img.png](img.png)
 
 Future consideration
     Add more models to simulate complex relationship.
     Integrate Efficient exception to provide feedback for developer or user.
+
+    
+## 9. Acknowledgements
+    This was a project taught during Northcoder bootcamp program
